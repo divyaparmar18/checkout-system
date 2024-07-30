@@ -1,0 +1,16 @@
+{
+  "name": "checkout-system",
+  "version": "1.0.0",
+  "description": "A checkout system with CLI interface",
+  "main": "src/Checkout.ts",
+  "scripts": {
+    "build": "tsc",
+    "start": "ts-node src/cli/checkout-cli.ts",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@types/node": "^20.4.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.1.6"
+  }
+}
